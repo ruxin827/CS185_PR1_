@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <style>
+            .videos {
+                display: flex;
+                flex-flow: row nowrap; 
+                justify-content: space-between; 
+                margin-top: 40px;
+            }
+
+            .topnav{
+                overflow: hidden;
+                background-color: black;
+            }
+
+            .topnav a{
+                height: 16px;
+                float: left;
+                color: white;
+                text-align: center;
+                padding: 14px 18px;
+                font-size: 16px;
+                text-decoration: none;
+            }
+
+            .topnav a:hover{
+                background-color: #e8e8e8;
+                color: black;
+            }
+
+            .topnav a.active{
+                background-color:cornflowerblue;
+                color: white;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="topnav">
+            <a href="index.html">Text</a>
+            <a href="image.html">Image</a>
+            <a class="active" href="video.html">Video</a>
+            <a href="table.html">Table</a>
+        </div>
+
+        <div class="videos">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sG7jHvLw5Q8"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ca7f9mDEW_s"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tiz2Vyw6eVo"></iframe>
+        </div>
+
+    </body>
+</html>

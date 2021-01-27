@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <style>
+            .group {
+                display: flex;
+                flex-flow: row nowrap; 
+                justify-content: space-between; 
+                margin-top: 10px;
+                margin-bottom: 50px;
+                margin-right: 30px;
+            }
+
+            .topnav{
+                overflow: hidden;
+                background-color: black;
+            }
+
+            .topnav a{
+                height: 16px;
+                float: left;
+                color: white;
+                text-align: center;
+                padding: 14px 18px;
+                font-size: 16px;
+                text-decoration: none;
+            }
+
+            .topnav a:hover{
+                background-color: #e8e8e8;
+                color: black;
+            }
+
+            .topnav a.active{
+                background-color:cornflowerblue;
+                color: white;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="topnav">
+            <a href="index.html">Text</a>
+            <a class="active" href="image.html">Image</a>
+            <a href="video.html">Video</a>
+            <a href="table.html">Table</a>
+        </div>
+
+        <div class="group">
+            <div><td><img src="1.jpg" width="400" ></td></div>
+            <div><td><img src="2.jpg" width="400" ></td></div>
+            <div><td><img src="3.jpg" width="400" ></td></div>
+        </div>
+        <div class="group">
+            <div><td><img src="4.jpg" width="400" ></td></div>
+            <div><td><img src="5.jpg" width="400" ></td></div>
+            <div><td><img src="6.jpg" width="400" ></td></div>
+    </div>
+    </body>
+</html>
